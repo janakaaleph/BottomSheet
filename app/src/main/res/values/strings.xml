@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Botttom Sheet</string>
+    <string name="action_settings">Settings</string>
+    <string name="short_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="long_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, pulvinar eget metus non, ornare interdum magna. Nam ac ultricies risus, eget vehicula velit. Maecenas accumsan vehicula vehicula. Sed interdum sit amet mauris non dapibus. Morbi lobortis arcu sed fringilla tempus. Praesent et eleifend ipsum. Phasellus bibendum vel nibh at dignissim.
+        \n\n
+        Mauris ultricies orci et mi bibendum, quis imperdiet dui tempor. Duis sodales quis lacus mattis efficitur. In hac habitasse platea dictumst. Sed posuere lacus ut euismod faucibus. Duis ullamcorper justo et est vehicula, fringilla consequat odio euismod. Proin quis metus luctus, convallis massa sed, faucibus diam. Integer ut convallis orci. Donec sagittis neque sit amet tellus pharetra euismod at vitae nunc.
+        \n\n
+        Quisque nec metus sit amet eros fermentum interdum. Proin sed scelerisque nibh. Integer est ex, hendrerit nec lorem et, blandit efficitur ex. Aenean tristique tincidunt metus eu finibus. Nam convallis enim ipsum, sit amet aliquet sem malesuada vel. Nunc tristique maximus ipsum, nec hendrerit libero hendrerit nec. Aenean eleifend sem vel turpis vulputate, et tincidunt erat elementum. Morbi ut odio eu sem lobortis posuere. Pellentesque ac varius odio. Maecenas luctus lectus non tincidunt rhoncus. Nam euismod nunc feugiat mi eleifend, vitae facilisis odio molestie. Ut dapibus pharetra elementum.</string>
+</resources>
