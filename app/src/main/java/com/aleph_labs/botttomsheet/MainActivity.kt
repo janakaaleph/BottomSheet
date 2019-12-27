@@ -1,5 +1,6 @@
 package com.aleph_labs.botttomsheet
 
+import android.animation.ValueAnimator
 import android.content.Context
 import android.os.Bundle
 import android.os.Handler
@@ -55,6 +56,17 @@ class MainActivity : AppCompatActivity() {
                 listOf(contentHeight, toastBottom, logoBottom).min() ?: 0
             BottomSheetBehavior.from(rootLayout).state = BottomSheetBehavior.STATE_COLLAPSED
             BottomSheetBehavior.from(rootLayout).isHideable = false
+        }
+
+        Handler().postDelayed(2000) {
+            val peakHeightAnimator =
+                ValueAnimator.ofInt(BottomSheetBehavior.from(rootLayout).peekHeight, 500)
+            peakHeightAnimator.addUpdateListener {
+                (it.animatedValue as? Int)?.let { height ->
+                    BottomSheetBehavior.from(rootLayout).peekHeight = height
+                }
+            }
+            peakHeightAnimator.start()
         }
 
         BottomSheetBehavior.from(rootLayout).state = BottomSheetBehavior.STATE_HIDDEN
